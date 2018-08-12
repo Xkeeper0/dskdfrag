@@ -1,6 +1,6 @@
--- Gamestate manager
+-- HUMP libraries
 Gamestate	= require "hump.gamestate"
-
+Class		= require "hump.class"
 
 gamestates	= {}
 gamestates.Game			= require "gamestates.game"
