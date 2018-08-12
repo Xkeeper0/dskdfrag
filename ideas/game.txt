@@ -1,0 +1,35 @@
+ludum dare theme: "running out of space" (or whatever)
+assumed most people are going to: take this as physical space issues
+comedy thought ideas: exploration game where the ending is you just run out of stuff to do, rip
+
+current idea (you are here):
+"disk defrag". your disk sucks and it's got files everywhere, so you need to clean it up so you can install whatever the latest thing is, probably
+
+main feature:
+- file list (right side), maybe show which ones are still yet to do
+- grid of clusters on left, with colors corresponding to status
+- some clusters may be duplicated or not used by any actual file, free space if you find them
+- 'work area' space that has room for a few clusters - freecell-style temporary area
+- have to arrange stuff in the work area before copying it back - can't overwrite anything that isn't moved yet
+- no time limit or pressure - very much a 'do it in the background if you want' type game
+- goal: make a large enough continguous free space area
+
+bonus features:
+- ability to pick different sizes of games
+- ability to drag finished stuff around to make more room
+- input seed for a fixed game, maybe have goofy time trials
+- ability to use keyboard + mouse input; name clusters after keyboard keys?
+
+   some file.txt
+   [A] [7] [J] [0] [P]
+   (push a, 7, j to automatically copy those to the first work area available)
+   (would make it sort of like a goofy typing game and be faster than mouse)
+
+- hovering over clusters/files should highlight their components in the grid
+- can find fake not-used clusters by going over the entire file list and seeing what doesn't light up
+- ?
+
+ui ideas:
+- i could hook up the old hard drive and use that, or just record the salt/pepper grinders for disk access
+- faux windows 98 cloudy background or something for startup
+- other crap
