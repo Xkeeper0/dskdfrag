@@ -1,2 +1,4 @@
 # dskdfrag
-"it keeps happening" "i warned you about ld games bro!!!! i told you dog!!" 
+a game about defragmenting your disk, or something
+
+ludum dare 42 compo and/or jam and/or oops i missed it again entry
